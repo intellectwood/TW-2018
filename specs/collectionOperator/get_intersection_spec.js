@@ -11,6 +11,7 @@ describe('get_intersection', function () {
   it('弹出两个集合的交集', function() {
 
     var result = get_intersection(collection_a, collection_b);
+    //expect(result).toEqual(collection_c);
     expect(result).toEqual(collection_c);
   });
 });
